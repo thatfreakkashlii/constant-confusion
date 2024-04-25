@@ -1,3 +1,2 @@
-console.log( "A" - "B" + "2");
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const reversedString = str => str.split('').reverse().join('');
+console.log(1 +  -"1" + "2");
+const stringReverse = str => str.split("").reverse().join("");
