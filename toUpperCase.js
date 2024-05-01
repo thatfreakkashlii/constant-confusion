@@ -1,4 +1,1 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const merge = [...new Set([...a, ...b])];
-console.log(false == '0');
-var pattern = {};
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
