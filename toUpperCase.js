@@ -1,1 +1,1 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+function myAPITS(someString: string, someNum: number) { ... };
