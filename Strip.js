@@ -1,6 +1,3 @@
-console.log(false === '0');
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const appName = getAppName(channel);
-const toggleBool = () => (bool = !bool);
-const fullName = name || 'buddy';
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const merge = [...new Set([...a, ...b])];
+const isEmptyArray = arr => !arr.length;
