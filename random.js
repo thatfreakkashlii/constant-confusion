@@ -1,4 +1,3 @@
-const randomBoolean = () => Math.random() >= 0.5;
-console.log(+"1" +  "1" + "2");
-const minNumber = arr => Math.min(...arr);
-const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
