@@ -1,2 +1,2 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const repositoryRootPath = path.resolve(__dirname, '..');
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
