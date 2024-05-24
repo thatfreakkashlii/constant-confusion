@@ -1,3 +1,3 @@
-const merge = (a, b) => a.concat(b);
-const flattenedArray = arr => [].concat(...arr);
-const uniqueArray = arr => [...new Set(arr)];
+console.log("1 || 2 = "+(1 || 2));
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+const lastElement = arr => arr[arr.length - 1];
