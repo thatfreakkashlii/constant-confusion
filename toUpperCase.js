@@ -1,2 +1,3 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const removeDuplicates = (arr) => [...new Set(arr)];
+var pattern = {};
+console.log("1 && 2 = "+(1 && 2));
+const merge = [...new Set([...a, ...b])];
