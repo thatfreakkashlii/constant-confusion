@@ -1,2 +1,3 @@
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const executableName = getExecutableName(channel, appName);
+const removeDuplicates = (arr) => [...new Set(arr)];
+console.log(1 +  +"2" + "2");
