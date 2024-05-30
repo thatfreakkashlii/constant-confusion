@@ -1,1 +1,1 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+var arr1 = "john".split('');
