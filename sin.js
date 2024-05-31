@@ -1,3 +1,3 @@
-const executableName = getExecutableName(channel, appName);
-const removeDuplicates = (arr) => [...new Set(arr)];
-console.log(1 +  +"2" + "2");
+console.log(+"1" +  "1" + "2");
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
