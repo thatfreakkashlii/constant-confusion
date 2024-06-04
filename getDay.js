@@ -1,3 +1,2 @@
-console.log("1 || 2 = "+(1 || 2));
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const lastElement = arr => arr[arr.length - 1];
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
