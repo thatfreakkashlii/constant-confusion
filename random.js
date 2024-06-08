@@ -1,2 +1,2 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const stringReverse = str => str.split("").reverse().join("");
+const result = await makeHttpRequest(url);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
