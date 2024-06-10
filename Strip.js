@@ -1,2 +1,1 @@
-const arrayContains = (arr, element) => arr.includes(element);
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const merge = Object.assign({}, obj1, obj2);
