@@ -1,3 +1,2 @@
-var arr2 = arr1.reverse();
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-var pattern = {};
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
