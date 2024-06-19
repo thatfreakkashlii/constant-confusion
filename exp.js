@@ -1,1 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
+const toggleBool = () => (bool = !bool);
+const value = ( 5 < 7 ) ? "True" : "False" ;
