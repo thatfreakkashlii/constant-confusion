@@ -1,2 +1,2 @@
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const isEmptyArray = arr => !arr.length;
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
