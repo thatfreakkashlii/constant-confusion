@@ -1,3 +1,2 @@
-const repositoryRootPath = path.resolve(__dirname, '..');
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const arrayContains = (arr, element) => arr.includes(element);
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
