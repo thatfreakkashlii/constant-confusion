@@ -1,2 +1,3 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+console.log(false == '0');
+const flattenedArray = arr => [].concat(...arr);
+const updated = numbers.filter(element => element > 6);
