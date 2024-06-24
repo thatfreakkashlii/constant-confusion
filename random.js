@@ -1,2 +1,1 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const getRandomBoolean = () => Math.random() >= 0.5;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
