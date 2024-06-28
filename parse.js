@@ -1,2 +1,3 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const goToTop = () => window.scrollTo(0, 0);
+console.log(+"1" +  "1" + "2");
+const appName = getAppName(channel);
+var c = new Counter(); c.add(); c.add(); c.add();
