@@ -1,3 +1,2 @@
-console.log(false == '0');
+const maxNumber = arr => Math.max(...arr);
 const flattenedArray = arr => [].concat(...arr);
-const updated = numbers.filter(element => element > 6);
