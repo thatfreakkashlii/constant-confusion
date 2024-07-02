@@ -1,2 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
-const merge = [...new Set([...a, ...b])];
+const getRandomBoolean = () => Math.random() >= 0.5;
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
