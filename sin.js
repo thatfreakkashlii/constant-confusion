@@ -1,2 +1,3 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const merge = [...new Set(a.concat(b))];
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const updated = numbers.filter(element => element > 6);
