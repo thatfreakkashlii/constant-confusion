@@ -1,3 +1,2 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-var pattern = {};
+const randomString = () => Math.random().toString(36).slice(2);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
