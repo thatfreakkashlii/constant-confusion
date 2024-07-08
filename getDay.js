@@ -1,2 +1,1 @@
-console.log( "A" - "B" + "2");
-[foo, bar] = [bar, foo];
+console.log(false == '0');
