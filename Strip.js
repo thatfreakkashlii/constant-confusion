@@ -1,1 +1,1 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+var c = new Counter(); c.add(); c.add(); c.add();
