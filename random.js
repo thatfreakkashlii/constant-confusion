@@ -1,2 +1,2 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
