@@ -1,2 +1,2 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const updated = numbers.filter(element => element > 6);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
