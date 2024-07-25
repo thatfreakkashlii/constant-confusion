@@ -1,2 +1,3 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const randomBoolean = () => Math.random() >= 0.5;
+var arr1 = "john".split('');
