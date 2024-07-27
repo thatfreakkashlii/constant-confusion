@@ -1,2 +1,3 @@
-const stringReverse = str => str.split("").reverse().join("");
-console.log("0 && 1 = "+(0 && 1));
+console.log( "A" - "B" + 2);
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+var c = new Counter(); c.add(); c.add(); c.add();
