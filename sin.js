@@ -1,2 +1,2 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-var pattern = {};
+const result = await makeHttpRequest(url);
+const goToTop = () => window.scrollTo(0, 0);
