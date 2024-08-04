@@ -1,3 +1,3 @@
-console.log( "A" - "B" + 2);
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-var c = new Counter(); c.add(); c.add(); c.add();
+var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const arrayContains = (arr, element) => arr.includes(element);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
