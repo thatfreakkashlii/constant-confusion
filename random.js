@@ -1,3 +1,3 @@
-const uniqueArray = arr => [...new Set(arr)];
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-console.log(false === '0');
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const arrayContains = (arr, element) => arr.includes(element);
