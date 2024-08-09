@@ -1,3 +1,3 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-console.log(false == '0');
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+var DELIM_SIZE = 4;
+console.log(typeof typeof 1);
+const result = await makeHttpRequest(url);
